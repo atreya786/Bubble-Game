@@ -21,7 +21,7 @@ const startGame = () => {
         clearInterval(timer);
         document.querySelector(
           "#pbotm"
-        ).innerHTML = `<div class="over"><h1>Game Over</h1><br/><h1>Your Score is ${score}</h1><br/><button onclick="window.location.reload()>Try Again</button></div>`;
+        ).innerHTML = `<div class="over"><h1>Game Over</h1><br/><h1>Your Score is ${score}</h1><br/><button onclick="window.location.reload()">Try Again</button></div>`;
       }
     }, 1000);
   };
